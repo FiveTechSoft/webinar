@@ -1,0 +1,33 @@
+=== CHANGELOG — Webinar ===
+
+2026-06-19
+
+[21cca8c] Initial commit
+  - Repositorio inicializado con archivos de prueba
+
+[fec8277] README profesional
+  - Añadido README.md documentando propósito del repo (webinar, pruebas)
+  - Badges, estructura, requisitos, notas
+
+[f017ee0] Documentación con GitHub Pages
+  - Creada carpeta docs/ con index.html (tema oscuro, responsive)
+  - Configurado GitHub Pages desde /docs en rama master
+  - Web disponible en: https://fivetechsoft.github.io/webinar/
+
+[--] Configuración del repo en GitHub
+  - Añadida URL de Pages a sección "About" del repo
+  - homepage: https://fivetechsoft.github.io/webinar/
+
+[--] Edición de texto.txt
+  - Añadidas 4 líneas aleatorias al archivo de prueba
+
+[--] Changelog
+  - Creado changelog.txt para registrar cambios del proyecto
+
+[--] Edición de texto.txt (2ª ronda)
+  - Añadidas 3 líneas extra al archivo de prueba
+
+[--] Actualización general
+  - changelog.txt actualizado con últimos cambios
+  - docs/index.html actualizado (estructura, sesiones, changelog)
+  - Commit y push de todos los cambios
