@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webinar — Documentación</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --fg: #c9d1d9;
+      --accent: #58a6ff;
+      --border: #30363d;
+      --code-bg: #161b22;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.6;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+    }
+    h1 { font-size: 2rem; color: var(--accent); }
+    h2 { font-size: 1.4rem; margin: 2rem 0 1rem; color: var(--accent); }
+    p, li { margin-bottom: 0.5rem; }
+    ul { padding-left: 1.5rem; }
+    code {
+      background: var(--code-bg);
+      padding: 0.15em 0.4em;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    pre {
+      background: var(--code-bg);
+      padding: 1rem;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      overflow-x: auto;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: #8b949e;
+      text-align: center;
+    }
+    .badge { display: inline-flex; gap: 0.5rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📘 Webinar — Documentación</h1>
+    <p>Repositorio de pruebas y ejemplos prácticos realizados durante sesiones de webinar.</p>
+    <div class="badge">
+      <a href="https://github.com/FiveTechSoft/webinar">🔗 GitHub</a>
+    </div>
+  </header>
+
+  <main>
+    <h2>📂 Estructura del repositorio</h2>
+    <pre>webinar/
+├── .claude/        # Configuración y memoria de Claude Code
+├── doc/            # Documentación (esta página)
+├── texto.txt       # Archivo de ejemplo para pruebas
+└── README.md       # Documento principal</pre>
+
+    <h2>🚀 Inicio rápido</h2>
+    <pre>git clone https://github.com/FiveTechSoft/webinar.git
+cd webinar</pre>
+
+    <h2>📋 Sesiones</h2>
+    <ul>
+      <li><strong>Sesión 1</strong> — Inicialización del repositorio y configuración de Git</li>
+      <li><strong>Sesión 2</strong> — Integración con GitHub y GitHub Pages</li>
+    </ul>
+
+    <h2>🔧 Herramientas utilizadas</h2>
+    <ul>
+      <li><a href="https://git-scm.com/">Git</a> — Control de versiones</li>
+      <li><a href="https://cli.github.com/">GitHub CLI</a> — Automatización desde terminal</li>
+      <li><a href="https://claude.ai/code">Claude Code</a> — Asistente de desarrollo con IA</li>
+    </ul>
+
+    <h2>📝 Notas</h2>
+    <p>El contenido de este repositorio es efímero y de carácter educativo. Cada sesión puede añadir, modificar o eliminar archivos según el temario cubierto.</p>
+  </main>
+
+  <footer>
+    Mantenido por <a href="https://github.com/FiveTechSoft">FiveTechSoft</a> — Webinar 2026
+  </footer>
+</body>
+</html>
